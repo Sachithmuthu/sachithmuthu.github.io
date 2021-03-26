@@ -40,11 +40,13 @@ section {
 }
 
 .set-bk-clr {
-    background-color: #FF2276;
+    /*background-color: #FF2276;*/
+    background-color: #123456;
 }
 
 .clr-set {
-    color: #FF2276;
+    /*background-color: #FF2276;*/
+    background-color: #123456;
 }
 
 .f-big {
@@ -93,7 +95,8 @@ padding:0px;
     }
 
 .navbar-default {
-    background-color: #123456 ;
+    /*background-color: #FF2276;*/
+    background-color: #123456;
     border-color: transparent;
 }
 /* ADDED PADDING IN NAVBAR */
