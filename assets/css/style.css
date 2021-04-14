@@ -41,7 +41,17 @@ section {
 
 .set-bk-clr {
     /*background-color: #FF2276;*/
-    background-color: #123456;
+    background-color: #CBCBCB;
+}
+
+.set-white-clr {
+    /*background-color: #FF2276;*/
+    background-color: #FFFFFF;
+}
+
+.set-grey-clr {
+    /*background-color: #FF2276;*/
+    background-color: #B6B5B5;
 }
 
 .clr-set {
@@ -55,6 +65,9 @@ section {
 }
 
 .set-bk-clr:hover {
+    background-color: #999898;
+}
+.set-grey-clr:hover {
     background-color: rgba(107, 1, 41, 0.67);
 }
 /*==============================
@@ -127,7 +140,7 @@ padding:0px;
  ============================================================ */
 
 #header {
-    background: url(../img/home3.jpg) no-repeat center center;
+    background: url(../img/sachithPP3.jpg) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
@@ -137,7 +150,7 @@ padding:0px;
 }
 
     #header .overlay {
-        background-color: rgba(3, 3, 3, 0.8);
+        background-color: rgba(3, 3, 3, 0.1);
         min-height: 700px;
     }
 
@@ -147,15 +160,16 @@ padding:0px;
         font-weight: 900;
         padding-top: 180px;
         padding-bottom: 35px;
-        color: #FFFFFF;
+        color: #000000;
     }
 
 
     #header h4 {
         line-height: 30px;
-        font-size: 12px;
+        font-size: 18px;
         padding-bottom: 40px;
-        text-transform: uppercase;
+        color: black;
+        /*text-transform: uppercase;*/
     }
 
 /*================================
@@ -174,7 +188,10 @@ padding:0px;
     #services h4 {
         padding-bottom: 5px;
         padding-top: 15px;
+        color: black;
     }
+
+
 /* =============================================================
   CLIENTS SECTION STYLES
  ============================================================ */
@@ -238,7 +255,7 @@ padding:0px;
 /* FOR CHANGING COLOR OF ACTIVE CATEGORY */
 .caegories a.active {
     background-color: #123456;
-    border: 2px solid #123456;
+    border: 0px solid #FF0000;
 }
 
 /* FOR TRANSITION BEAUTIFULLY */
@@ -249,14 +266,14 @@ padding:0px;
 }
 
 #works .work-wrapper {
-    border: 2px solid #123456;
+    border: 0px solid #123456;
     padding: 2px;
     margin: 5px 5px 10px 5px;
 }
 
 #works img {
-    filter: gray; /* FOR IE6-9 */
-    -webkit-filter: grayscale(1); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
+    filter: none; /* FOR IE6-9 */
+    -webkit-filter: grayscale(0.4); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
     opacity: 0.8;
 }
 
@@ -285,6 +302,25 @@ padding:0px;
         padding-top: 100px;
         padding-bottom: 100px;
     }
+
+
+#testimonial2 {
+    background: url(../img/dresden.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    background-attachment: fixed;
+}
+
+    #testimonial2 .overlay {
+        background-color: rgba(0,0,0,0.7);
+        padding-top: 90px;
+        min-height: 300px;
+        color: #fff;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
 /* =============================================================
   TEAM SECTION STYLES
  ============================================================ */
@@ -296,12 +332,32 @@ padding:0px;
     margin-right: 40px;
     max-height: 150px;
     margin-bottom: 20px;
-    border: 2px solid #123456;
+    border: 0px solid #123456;
 }
 
     .media img:hover {
         opacity: 0.6;
     }
+
+
+/* =============================================================
+  PRESS SECTION STYLES
+ ============================================================ */
+#press {
+    background-color: rgba(237, 237, 237, 1);
+}
+
+.media img {
+    margin-right: 40px;
+    max-height: 150px;
+    margin-bottom: 20px;
+    border: 0px solid #123456;
+}
+
+    .media img:hover {
+        opacity: 0.6;
+    }
+
 /* =============================================================
   CONTACT SECTION STYLES
  ============================================================ */

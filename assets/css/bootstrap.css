@@ -1114,7 +1114,7 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  max-width: 100%;
+  max-width: 105%;
   height: auto;
 }
 .img-rounded {
@@ -1134,8 +1134,9 @@ img {
           transition: all .2s ease-in-out;
 }
 .img-circle {
-  border-radius: 50%;
+  border-radius: 40%;
 }
+
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -3155,8 +3156,8 @@ fieldset[disabled] .btn-success.active {
 }
 .btn-info {
   color: #fff;
-  background-color: #5bc0de;
-  border-color: #46b8da;
+  background-color: #B6B5B5;
+  border-color: #ffffff;
 }
 .btn-info:hover,
 .btn-info:focus,
